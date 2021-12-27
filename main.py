@@ -5,12 +5,12 @@ import random
 print("Guess the number game")
 
 # print("how many attempts?")
-print("range starts from:")
-print("range limits by """)
+rangeStarts=input("range starts from: ")
+rangeLimit=input("range limits by: ")
 attempt=10
 number=0
-rangeStarts=0
-rangeLimit=100
+
+
 x=random.randint(1,100)
 attempts=0
 print(x)
